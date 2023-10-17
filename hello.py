@@ -1,3 +1,2 @@
-a=4
-b=3
-print("la impresion es ")
+print("Hello Git!")
+print("Hola que tal")
