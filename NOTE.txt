@@ -52,3 +52,15 @@ los tag suelen ser las versiones
 git tag nombre //git tag clase_1
 git tag // muestra los tag creados
 git checkout tags/clase_1 //clase_1 es el nombre que le coloco al marcador o tag
+
+Elminar commit intermedio
+git revert //no lo ejemplizo pero menciono la existenaia
+
+RAMAS 
+git branch login //en este casa la rama recien creada es login 
+git swith login //cambiar el puntero HEAD a la nueva rama, por defecto no se carga al crear la rama
+
+
+
+
+
