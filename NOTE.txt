@@ -50,3 +50,5 @@ git reset --hard id // podemos movernos hacia adelante, de acuerdo al id del com
 'tag', etiqueta commit, se utiliza habitualmente cuando hacemos referencia a puntos importantes 
 los tag suelen ser las versiones 
 git tag nombre //git tag clase_1
+git tag // muestra los tag creados
+git checkout tags/clase_1 //clase_1 es el nombre que le coloco al marcador o tag
