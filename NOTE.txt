@@ -60,6 +60,8 @@ RAMAS
 git branch login //en este casa la rama recien creada es login 
 git swith login //cambiar el puntero HEAD a la nueva rama, por defecto no se carga al crear la rama
 
+Unificar los cambios o fuciona
+git marge master // unir a la rama login los datos de master 
 
 
 
