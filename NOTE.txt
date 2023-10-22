@@ -43,4 +43,10 @@ git checkout numeroDeCommit
 git checkout HEAD // direcciona la cabecera del archivo 
 
 Funciones mas duras
-git reset hard
+git reset --hard id// el guion o doble guio se usa en parametros 
+git reflog // historial completo de interacciones, aun despues de realizar un reset --hard 
+git reset --hard id // podemos movernos hacia adelante, de acuerdo al id del commit que encontramos en reflog 
+
+'tag', etiqueta commit, se utiliza habitualmente cuando hacemos referencia a puntos importantes 
+los tag suelen ser las versiones 
+git tag nombre //git tag clase_1
