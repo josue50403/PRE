@@ -1,0 +1,46 @@
+Documentos de entrenamiento de git and git hub de "mouredev"
+
+Configuracion globa
+git config --global user.name "josue"// configuracion global
+git config --global user.email ""
+
+Creacion de carpeta 
+git init
+
+Verificar estatus de los cambios
+git status //obs los fiches que aun no se han anadido, esto se .DS_Store son ficheros propios de mas
+
+Crear la primera viobgra
+git add nombre.extension 
+git add . //anade todos los fiches 
+
+Lanzar usando commit
+git commit -m "Este es mi primer commit"
+
+He llegado lejos, pero quiere regresar a un punto bueno de los datos 
+git checkout hello2.py
+git reset 
+
+Visualizar los commit 
+git log 
+git log --graph //obsevacion mas visual, aunque con la extension git graph no lo veo necesatio 
+git log --graph --pretty=oneline // visualizar de forma mas comparta la ras 
+git log --graph --decorate --all --oneline // la forma mas compacta 
+
+Alias 
+git config --global alias.tree "log --graph --decorate --all --oneline" // alias con el nombre "tree"
+git tree //ejemplo del uso anterior
+
+Fuchero .DS_Store
+cree desde terminar con el siguiente comando: touch .gitignore
+dentro de esto agrego los ficheros que quiero ignorar o no agregar al documento 
+
+Mostrar cambias desde acutal posicion vrs la ultima fortotogafica 
+git diff name.extesion
+
+podemos tambien movernos por el codigo de comiit 
+git checkout numeroDeCommit
+git checkout HEAD // direcciona la cabecera del archivo 
+
+Funciones mas duras
+git reset hard
