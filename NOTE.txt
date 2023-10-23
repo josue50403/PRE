@@ -67,5 +67,7 @@ El problema de los conflictos
 git stash // forma temporal de realizar commit, si deseo moverme entre RAMAS
 git stash list // muestra la lista de stash guardados
 git stash pop // restaura lo guardado temmporal al regresar a la rama en que lo realice 
+git stash drop //borra los stash temporales 
 
+git diff login // tambien sierve para ver diferencia entre ramas
 
