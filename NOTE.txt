@@ -69,4 +69,3 @@ git stash list // muestra la lista de stash guardados
 git stash pop // restaura lo guardado temmporal al regresar a la rama en que lo realice 
 
 
-
