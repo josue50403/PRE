@@ -63,6 +63,7 @@ git swith login //cambiar el puntero HEAD a la nueva rama, por defecto no se car
 Unificar los cambios o fuciona
 git merge master // unir a la rama login los datos de master 
 
+El problema de los conflictos 
 
 
 
