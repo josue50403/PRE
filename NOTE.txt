@@ -71,3 +71,9 @@ git stash drop //borra los stash temporales
 
 git diff login // tambien sierve para ver diferencia entre ramas
 
+Borrar ramas branch
+git branch -d login //eliminar una rama, aun podemos visualizar con git checkout 
+
+
+
+
