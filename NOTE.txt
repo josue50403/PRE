@@ -74,6 +74,10 @@ git diff login // tambien sierve para ver diferencia entre ramas
 Borrar ramas branch
 git branch -d login //eliminar una rama, aun podemos visualizar con git checkout 
 
+GITHUB, se hace mediante las instruciones de ssh para la autenticacion
+git remote add origin "url del repositoria" //para lanzar desde terminar un repositoria
+
+
 
 
 
